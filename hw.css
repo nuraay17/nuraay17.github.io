@@ -1,0 +1,684 @@
+body{
+	margin: 0;
+	min-height: 1000px;
+	height: 4000px;
+}
+
+
+.clr{
+	float: left;
+	position: static;
+	top: 0;
+	display: inline;
+	height: 65px;
+	width: 150px;
+	background-color: #343334;
+}
+
+.halo{
+	float: left;
+	position: static;
+	top: 0;
+	display: inline;
+	height: 65px;
+	width: 115px;
+	background-color: #232323;
+}
+.oth{
+	float: left;
+	position: static;
+	top: 0;
+	display: inline;
+	height: 65px;
+	width: 1084px;
+	background-color: #343334;
+}
+#color{
+	margin-top: 10px;
+	color: white;
+	font-family: 'Open Sans';
+	font-size: 39px;
+}
+#h{
+	
+	margin-top: 20px;
+	color: #949a8c;
+	font-family: "Open Sans";
+	font-size: 18px;
+
+}
+.relative{
+	position: relative;
+	width: 100%;
+	
+}
+.text1{
+	position:absolute; 
+	top: 80px;
+	left: 33px; 
+	font-size: 30px;
+	font-family:"Open Sans"; 
+	text-align:right;
+	color: white;
+}
+.text2{
+	position:absolute; 
+	top: 108px;
+	left: 630px; 
+	font-size: 15px;
+	font-family:"Open Sans"; 
+	color: white;
+}
+.text3{
+	position:absolute; 
+	top: 108px;
+	left: 700px; 
+	font-size: 15px;
+	font-family:"Open Sans"; 
+	color: white;
+}
+.text4{
+	position:absolute; 
+	top: 108px;
+	left: 810px; 
+	font-size: 15px;
+	font-family:"Open Sans"; 
+	color: white;
+}
+.text5{
+	position:absolute; 
+	top: 108px;
+	left: 930px; 
+	font-size: 15px;
+	font-family:"Open Sans"; 
+	color: white;
+}
+.text6{
+	position:absolute; 
+	top: 108px;
+	left: 1050px; 
+	font-size: 15px;
+	font-family:"Open Sans"; 
+	color: white;
+}
+.text7{
+	position:absolute; 
+	top: 108px;
+	left: 1120px; 
+	font-size: 15px;
+	font-family:"Open Sans"; 
+	color: white;
+}
+.text8{
+	position:absolute; 
+	top: 75px;
+	left: 30px; 
+	font-size: 140px;
+	font-family:"Calibri Light"; 
+	text-align:right;
+	color: white;
+}
+.text9{
+	position:absolute; 
+	top: 350px;
+	left: 25px; 
+	font-size: 80px;
+	font-family:"Calibri Light"; 
+	text-align:right;
+	color: white;
+
+}
+.text10{
+	position:absolute; 
+	top: 440px;
+	left: 25px; 
+	font-size: 80px;
+	font-family:"Calibri Light"; 
+	text-align:right;
+	color: white;
+
+}
+.container{
+	position: relative;
+	width: 100%;
+
+}
+.amazing{
+	position: absolute;
+	top:160px;
+	left: 40px;
+	font-size: 14px;
+	color:gray;
+	font-family: "Cambria Math";
+}
+.we{
+	position: absolute;
+	top:167px;
+	left: 40px;
+	font-size: 30px;
+	color:black;
+	font-family: "Verdana";
+	letter-spacing: 5px;
+}
+.creat{
+	position: absolute;
+	top: 205px;
+	left: 40px;
+	font-size: 30px;
+	color:black;
+	font-family: "Verdana";
+	letter-spacing: 5px;
+}
+.fort{
+	position: absolute;
+	top: 300px;
+	left: 40px;
+	width: 500px;
+	height: 350px;
+	background-color: white;
+}
+.int{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	font-size: 17px;
+	color:black;
+	font-family: "Verdana";
+	color:gray;
+}
+#fir{
+	position: absolute;
+	width: 130px;
+	size : 2; 
+	top: 260px;
+	left: 0;
+	color: #000000;
+
+}
+#sec{
+	position: absolute;
+	width: 130px;
+	size : 2; 
+	top: 295px;
+	left: 0;
+	color: #000000;
+
+}
+
+#thir{
+	position: absolute;
+	width: 130px;
+	size : 2; 
+	top: 299px;
+	left: 0;
+	color: #000000;
+
+}
+#read{
+	position: absolute;
+	top: 262px;
+	left: 22px;
+	font-family: "Cambria Math"
+	font-size: 12px;
+}
+.board{
+	position: relative;
+	top: 1500px;
+	width: 100%;
+	background-color: #232323;
+	height: 400px;
+}
+#line1{
+	position: absolute;
+	left: 330px;
+	color: gray;
+	font-size: 130px;
+}
+#line2{
+	position: absolute;
+	left: 650px;
+	color: gray;
+	font-size: 130px;
+}
+#line3{
+	position: absolute;
+	left: 970px;
+	color: gray;
+	font-size: 130px;
+}
+#c1{
+	position: absolute;
+	left: 200px;
+	top: 160px;
+	font-size: 40px;
+	color: white;
+}
+#c2{
+	position: absolute;
+	left: 500px;
+	top: 160px;
+	font-size: 40px;
+	color: white;
+}
+#c3{
+	position: absolute;
+	left: 800px;
+	top: 160px;
+	font-size: 40px;
+	color: white;
+}
+#c4{
+	position: absolute;
+	left: 1140px;
+	top: 160px;
+	font-size: 40px;
+	color: white;
+}
+#t1{
+	position: absolute;
+	left: 175px;
+	top: 240px;
+	font-size: 15px;
+	color: white;
+
+}
+#t2{
+	position: absolute;
+	left: 460px;
+	top: 240px;
+	font-size: 15px;
+	color: white;
+
+}
+#t3{
+	position: absolute;
+	left: 780px;
+	top: 240px;
+	font-size: 15px;
+	color: white;
+
+}
+#t4{
+	position: absolute;
+	left: 1090px;
+	top: 240px;
+	font-size: 15px;
+	color: white;
+
+}
+.white{
+	position: relative;
+	top: 1500px;
+	width: 100%;
+	height: 800px;
+	background-color: white;
+}
+#std{
+	position: absolute;
+	top:100px;
+	left: 30px;
+	font-size: 14px;
+	color:gray;
+	font-family: "Cambria Math";
+}
+#see{
+	position: absolute;
+	top:105px;
+	left: 30px;
+	font-size: 25px;
+	color:black;
+	font-family: "Verdana";
+	letter-spacing: 3px;
+}
+#offer{
+	position: absolute;
+	top: 140px;
+	left: 30px;
+	font-size: 25px;
+	color:black;
+	font-family: "Verdana";
+	letter-spacing: 3px;
+}
+.fort2{
+	position: absolute;
+	top: 220px;
+	left: 30px;
+	width: 330px;
+	height: 450px;
+	background-color: white;
+}
+.int2{
+	position: absolute;
+	top: 5px;
+	left: 0;
+	font-size: 20px;
+	font-family: "Verdana";
+	color:gray;
+	letter-spacing: 5px;
+}
+#fir2{
+	position: absolute;
+	width: 130px;
+	size : 2; 
+	top: 320px;
+	left: 0;
+	color: #000000;
+
+}
+#sec2{
+	position: absolute;
+	width: 130px;
+	size : 2; 
+	top: 350px;
+	left: 0;
+	color: #000000;
+
+}
+
+#thir2{
+	position: absolute;
+	width: 130px;
+	size : 2; 
+	top: 353px;
+	left: 0;
+	color: #000000;
+
+}
+#read2{
+	position: absolute;
+	top: 325px;
+	left: 22px;
+	font-family: "Cambria Math"
+	font-size: 12px;
+}
+.fort3{
+	position: absolute;
+	top: 110px;
+	left: 500px;
+	width: 300px;
+	height: 600px;
+	background-color: white;
+}
+#ftgs{
+	position: absolute;
+	top: 70px;
+	left: 0;
+	letter-spacing: 2px;
+	font-size: 15px;
+
+}
+#susp{
+	position: absolute;
+	top: 120px;
+	left: 0;
+	font-size: 14px;
+	color: gray;
+}
+#phal{
+	position: absolute;
+	top: 310px;
+	left: 0;
+	letter-spacing: 2px;
+	font-size: 15px;
+
+}
+#nec{
+	position: absolute;
+	top: 350px;
+	left: 0;
+	font-size: 14px;
+	color: gray;
+}
+.fort4{
+	position: absolute;
+	top: 110px;
+	left: 900px;
+	width: 300px;
+	height: 600px;
+	background-color: white;
+}
+#sht{
+	position: absolute;
+	top: 70px;
+	left: 0;
+	letter-spacing: 2px;
+	font-size: 15px;
+
+}
+#cong{
+	position: absolute;
+	top: 120px;
+	left: 0;
+	font-size: 14px;
+	color: gray;
+}
+#org{
+	position: absolute;
+	top: 310px;
+	left: 0;
+	letter-spacing: 2px;
+	font-size: 15px;
+
+}
+#pr{
+	position: absolute;
+	top: 350px;
+	left: 0;
+	font-size: 14px;
+	color: gray;
+}
+.stay{
+	position: relative;
+	top: 1400px;
+	width: 100%;
+	height: 600px;
+	
+}
+#std2{
+	position: absolute;
+	top:120px;
+	left: 30px;
+	font-size: 14px;
+	color:white;
+	font-family: "Cambria Math";
+}
+#touch{
+	position: absolute;
+	top:130px;
+	left: 30px;
+	font-size: 25px;
+	color:white;
+	font-family: "Verdana";
+	letter-spacing: 4px;
+}
+.fort5{
+	position: absolute;
+	top: 230px;
+	left: 30px;
+	width: 345px;
+	height: 300px;
+	
+}
+.int3{
+	position: absolute;
+	top: 5px;
+	left: 0;
+	font-size: 17px;
+	color:white;
+	font-family: "Verdana";
+	letter-spacing: 2px;
+}
+#num{
+	position: absolute;
+	top: 195px;
+	left: 60px;
+	color: white;
+}
+#mail{
+	position: absolute;
+	top: 235px;
+	left: 60px;
+	color: white;
+}
+#adress{
+	position: absolute;
+	top: 270px;
+	left: 60px;
+	color: white;
+}
+#name{
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	color: white;
+	font-size: 18px;
+	font-style: italic;
+}
+#email{
+	position: absolute;
+	top: 200px;
+	left: 900px;
+	color: white;
+	font-size: 18px;
+	font-style: italic;
+}
+#sub{
+	position: absolute;
+	top: 300px;
+	left: 500px;
+	color: white;
+	font-size: 18px;
+	font-style: italic;
+}
+#mess{
+	position: absolute;
+	top: 400px;
+	left: 500px;
+	color: white;
+	font-size: 18px;
+	font-style: italic;
+}
+#nm{
+	position: absolute;
+	width: 350px;
+	size : 1; 
+	top: 250px;
+	left: 500px;
+	color: white;
+
+}
+#ml{
+	position: absolute;
+	width: 350px;
+	size : 1; 
+	top: 250px;
+	left: 900px;
+	color: white;
+
+}
+
+#sbj{
+	position: absolute;
+	width: 750px;
+	size : 1; 
+	top: 350px;
+	left: 500px;
+	color: white;
+
+}
+#msg{
+	position: absolute;
+	width: 750px;
+	size : 1; 
+	top: 520px;
+	left: 500px;
+	color: white;
+
+}
+#fir3{
+	position: absolute;
+	width: 130px;
+	size : 2; 
+	top: 550px;
+	left: 500px;
+	color: #000000;
+
+}
+#sec3{
+	position: absolute;
+	width: 130px;
+	size : 2; 
+	top: 590px;
+	left: 500px;
+	color: #000000;
+
+}
+
+#thir3{
+	position: absolute;
+	width: 130px;
+	size : 2; 
+	top: 594px;
+	left: 500px;
+	color: #000000;
+
+}
+#snd{
+	position: absolute;
+	top: 555px;
+	left: 545px;
+	font-family: "Cambria Math"
+	font-size: 13px;
+	color: white;
+}
+.last{
+	position: relative;
+	top: 1500px;
+	width: 100%;
+	height: 500px;
+	background-color: #232323;
+}
+#work{
+	position: absolute;
+	top: 100px;
+	left: 480px;
+	font-size: 50px;
+	font-style: italic;
+	color: white;
+}
+#off{
+	position: absolute;
+	top: 200px;
+	left: 550px;
+	font-size: 30px;
+	color: white;
+}
+#laast{
+	position: absolute;
+	top: 350px;
+	left: 350px;
+	font-size: 20px;
+	color: black;
+
+}
+#lastt{
+	position: absolute;
+	top: 350px;
+	left: 950px;
+	font-size: 20px;
+	color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
